@@ -29,19 +29,19 @@ export default async function page({ searchParams }: Props) {
     <div>
         <div className="flex w-10/12 mx-auto justify-center items-center">
   
-        <div className="2xl:mx-auto  lg:px-20 lg:py-16 md:py-12 md:px-6 py-9 px-4 w-96 sm:w-auto">
+        <div className=" lg:px-20 lg:py-16 md:py-12 md:px-6 py-9 px-4 w-96 sm:w-auto">
           <div role="main" className="flex flex-col items-center justify-center">
             <h1 className="md:text-4xl text-xl font-bold leading-9 text-center text-gray-800 dark:text-gray-50">This Week Blogs</h1>
             <p className="md:text-xl text-base leading-normal text-center text-gray-600 dark:text-white mt-4 lg:w-1/2 md:w-10/12 w-11/12">If you're looking for random paragraphs, you've come to the right place. When a random word or a random sentence isn't quite enough</p>
           </div>
-          <div className="w-full flex gap-5 flex-wrap">
-            <ul className="flex gap-2 overflow-auto">
+          {/* <div className="w-full flex gap-5 flex-wrap">
+            <ul className="flex gap-2 ">
 
             </ul>
-          </div>
+          </div> */}
           <BlogFilter 
            />
-          <div className="text-gray-900 py-12  w-full mt-4 border-2 border-green-600 ">
+          <div className="text-gray-900 py-12  w-full mt-4  ">
             <div className="w-full pt-4 pr-5 pb-6 pl-5 mt-0 mr-auto mb-0 ml-auto space-y-5 sm:py-8 md:py-12 sm:space-y-8 md:space-y-16
                ">
               <div className="flex flex-col items-center sm:px-5 md:flex-row">

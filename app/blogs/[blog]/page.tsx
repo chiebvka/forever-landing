@@ -4,10 +4,10 @@ type Props = {}
 
 export default function page({}: Props) {
   return (
-    <div className='w-11/12 mx-auto border-2 px-2 border-red-600'>
+    <div className='w-11/12 mx-auto  px-2 '>
         <main className="mt-10">
             <div className="mb-4 md:mb-0 w-full mx-auto relative">
-                <div className="px-4 lg:px-0">
+                <div className="">
                     <h2 className="md:text-4xl text-xl mb-2 font-semibold text-foreground leading-tight">
                     Pellentesque a consectetur velit, ac molestie ipsum. Donec sodales, massa et auctor.
                     </h2>
@@ -22,7 +22,7 @@ export default function page({}: Props) {
             </div>  
             <div className="flex flex-col lg:flex-row lg:space-x-12">
 
-                <div className="px-4 lg:px-0 mt-12 text-foreground text-base md:text-lg justify-normal leading-relaxed w-full ">
+                <div className=" mt-12 text-foreground text-base md:text-lg justify-normal leading-relaxed w-full ">
                     <p className="pb-6">Advantage old had otherwise sincerity dependent additions. It in adapted natural hastily is
                     justice. Six draw
                     you him full not mean evil. Prepare garrets it expense windows shewing do an. She projection advantages

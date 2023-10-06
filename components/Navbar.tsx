@@ -34,12 +34,12 @@ export default function Navbar({}: Props) {
 
 
   return (
-    <div className='border-2 flex md:justify-around justify-between items-center w-11/12 md:py-5 pb-3 mx-auto'>
+    <div className=' flex md:justify-around justify-between items-center w-11/12 md:py-5 pb-3 mx-auto'>
       <div className="flex  lg:flex-1">
-        <a href="#" className="-m-1.5  p-1.5">
+        <Link href="/" className="-m-1.5  p-1.5">
           <span className="sr-only">Your Company</span>
           <h1 className={`${cavet.className} h-8 text-4xl z-10 text-white  w-auto`}>Foreversake.</h1>
-        </a>
+        </Link>
       </div>
       <div className="flex lg:hidden">
         <button

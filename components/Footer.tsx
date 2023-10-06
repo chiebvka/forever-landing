@@ -7,7 +7,7 @@ const cavet = Caveat({ subsets: ['latin'] })
 
 export default function Footer({}: Props) {
   return (
-    <div className='w-11/12 mx-auto'>
+    <div className='w-11/12 mx-auto border-t mt-6'>
         {/** Footer */}
         <footer className="bg-gradient-to-r ">
         <div className="max-w-screen-xl px-4 py-8 mx-auto sm:px-6 lg:px-8">

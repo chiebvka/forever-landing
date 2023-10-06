@@ -104,7 +104,7 @@ import { blogPosts } from '@/constants';
 //     onCategorySelect: (categoryName: string | null) => void;
 //   };
 type Props = {
-    
+
 }
 
 
@@ -158,7 +158,7 @@ export default function BlogFilter({  }: Props) {
 //   : blogPosts;
 
   return (
-    <div className='flex w-9/12 mx-auto border-2 overflow-auto py-2 gap-5'>
+    <div className='flex w-9/12 mx-auto  py-2 gap-5'>
         <ul className="flex gap-2 overflow-auto">
         {[...new Set(blogPosts.map((post) => post.tag))].map((tag) => (
             <button
