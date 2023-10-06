@@ -1,4 +1,8 @@
+import Footer from '@/components/Footer'
 import './globals.css'
+import { Inter } from 'next/font/google'
+
+const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'Create Next App',
@@ -13,9 +17,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <main className="min-h-screen bg-background flex flex-col items-center">
+        <main className={`${inter.className} border-2 border-red-600 w-full min-h-screen bg-background flex flex-col items-center`}>
           {children}
+        <Footer />
         </main>
+
       </body>
     </html>
   )

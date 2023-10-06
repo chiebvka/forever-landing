@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -24,6 +26,20 @@
   * {
     @apply border-foreground/20;
   }
+}
+
+.x-sign {
+  --interval: 1s;
+  display: block;
+  color: #00ff59;
+  text-shadow: 
+    0 0 10px #00ff59,
+    0 0 20px #275827,
+    0 0 40px #008000,
+    0 0 80px #000000;
+  will-change: filter, color;
+  filter: saturate(60%);
+  font-family: 'Monoton', cursive;
 }
 
 .animate-in {
