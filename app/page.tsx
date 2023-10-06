@@ -1,5 +1,5 @@
-// import { createServerComponentClient } from '@supabase/auth-helpers-nextjs'
-// import { cookies } from 'next/headers'
+import { createServerComponentClient } from '@supabase/auth-helpers-nextjs'
+import { cookies } from 'next/headers'
 import Link from 'next/link'
 import Kickstarter from '@/components/Kickstarter'
 import About from '@/components/About'
@@ -7,11 +7,11 @@ import How from '@/components/How'
 import Hero from '@/components/Hero'
 import Contact from '@/components/Contact'
 
-export const dynamic = 'force-static'
+export const dynamic = 'force-dynamic'
 
 
 export default async function Index() {
-  // const supabase = createServerComponentClient({ cookies })
+  const supabase = createServerComponentClient({ cookies })
 
   // const {
   //   data: { user },
