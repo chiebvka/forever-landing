@@ -1,5 +1,7 @@
 import React from 'react'
 
+export const dynamic = 'force-dynamic'
+
 type Props = {}
 
 export default function page({}: Props) {
