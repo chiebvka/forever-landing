@@ -1,17 +1,20 @@
 import Link from 'next/link'
-import React from 'react'
+import React from 'react';
+import { Caveat } from 'next/font/google'
 
 type Props = {}
+const cavet = Caveat({ subsets: ['latin'] })
 
 export default function Footer({}: Props) {
   return (
-    <div className='w-full'>
+    <div className='w-11/12 mx-auto'>
         {/** Footer */}
         <footer className="bg-gradient-to-r ">
-        <div className="max-w-screen-xl px-4 py-16 mx-auto sm:px-6 lg:px-8">
+        <div className="max-w-screen-xl px-4 py-8 mx-auto sm:px-6 lg:px-8">
             <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
             <div>
-            <img src="#" className="mr-5 h-6 sm:h-9" alt="logo" />
+            <h1 className={`${cavet.className} h-8 text-4xl z-10 text-foreground  w-auto`}>Foreversake.</h1>
+            {/* <img src="https://i.ibb.co/3C5HvxC/img-2.png" className="mr-5 w-20 h-20 rounded-full border-4 border-white object-coontain " alt="logo" /> */}
                 <p className="max-w-xs mt-4 text-sm text-foreground">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, accusantium.
                 </p>

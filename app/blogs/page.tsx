@@ -77,7 +77,7 @@ export default async function page({ searchParams }: Props) {
               </div>
               <div className="grid grid-cols-1 md:grrid-cols-2 lg:grid-cols-3 xl:grid-cols-4 sm:px-5 gap-x-8 gap-y-16">
                 {blogPosts.map((post, index) => (
-                  <Link href="/" key={index} className="flex relative flex-col border-2 border-foreground overflow-hidden rounded-md items-start group space-y-3 ">
+                  <Link href="/blogs/blog" key={index} className="flex relative flex-col border-2 border-foreground overflow-hidden rounded-md items-start group space-y-3 ">
                     <img src={post.imageUrl} className="object-cover w-full mb-2  rounded-lg shadow-sm max-h-56 border-b border-b-foreground group-hover:scale-110 transition-transform  transform duration-300 ease-in-out  "/>
                     <p className="bg-green-500 ml-3 flex items-center leading-none text-sm font-medium text-gray-50 pt-1.5 pr-3 pb-1.5 pl-3
                         rounded-md uppercase ">{post.tag}</p>

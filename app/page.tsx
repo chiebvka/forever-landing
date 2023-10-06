@@ -7,6 +7,7 @@ import NextJsLogo from '../components/NextJsLogo'
 import Kickstarter from '@/components/Kickstarter'
 import About from '@/components/About'
 import How from '@/components/How'
+import Hero from '@/components/Hero'
 import Contact from '@/components/Contact'
 
 export const dynamic = 'force-dynamic'
@@ -195,6 +196,7 @@ export default async function Index() {
     <About />
     <How />
     <Contact />
+    {/* <Hero /> */}
   </>
   )
 }
